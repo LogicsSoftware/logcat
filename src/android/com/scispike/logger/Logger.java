@@ -70,7 +70,8 @@ public class Logger extends CordovaPlugin {
 					}
 					String result = buffer.toString();
 					
-					Log.d(TAG, "read: "+ count + "; ending in: "+ nextLine+";; included: "+result.indexOf(nextLine));
+					//Log.d(TAG, "read: "+ count + "; ending in: "+ nextLine+";; included: "+result.indexOf(nextLine));
+					Log.d(TAG, "lines=" + count + ", bytes=" + result.length() + ", ending in: "+ nextLine);
 					callbackContext.success(result);								
 					
 				} catch (Exception e) {
