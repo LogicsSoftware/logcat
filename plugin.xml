@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
  
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-           id="com.scispike.logger"
-      version="0.0.2">
-    <name>Logger</name>
-    <description>Get logs</description>
+           id="de.logics.logcat"
+      version="0.0.1">
+    <name>Logcat</name>
+    <description>Get logcat</description>
     <license>MIT</license>
 
     <engines>
